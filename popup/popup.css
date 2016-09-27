@@ -1,0 +1,27 @@
+
+body {
+    background-color: #fff;
+    color: #262626;
+    border-radius: 5px;
+}
+
+ul.links {
+  list-style-type: none;
+  padding-left: 10px;
+  margin-top: 0px;
+}
+
+.links > li > a {
+  color: #7c8c8e;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.links > li > a:hover {
+  color: #05c2d1;
+}
+
+h4 {
+    color: #3c4040;
+    margin-bottom: 5px;
+}

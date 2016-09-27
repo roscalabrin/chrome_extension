@@ -1,0 +1,28 @@
+{
+  "name": "Mod 1 Links",
+  "version": "1.1",
+  "manifest_version": 2,
+  "description": "This is an extension with the some useful links for Mod 1 students at Turing.",
+  "icons": {"128": "m1_icon.png"
+  },
+
+  "browser_action": {
+    "default-title": "Turing Mod 1 Useful Links",
+    "default-icon": "m1_icon.png",
+    "default_popup": "popup/popup.html"
+  },
+
+  "background": {
+  "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-2.2.4.min.js", "content.js"]
+    }
+  ]
+
+}
